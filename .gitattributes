@@ -1,0 +1,3 @@
+# Preserve the list bytes recorded in manifest.json across Git checkouts.
+list/**/*.txt -text
+list/*.txt -text

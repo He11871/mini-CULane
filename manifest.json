@@ -1,0 +1,132 @@
+{
+  "sampling_seed": 42,
+  "verification": "The normalized image paths and their order in all three split lists match the selection reproduced with sampling seed 42.",
+  "splits": {
+    "train_gt.txt": {
+      "count": 10000,
+      "seed42_order_equal": true,
+      "seed42_set_equal": true
+    },
+    "val_gt.txt": {
+      "count": 1000,
+      "seed42_order_equal": true,
+      "seed42_set_equal": true
+    },
+    "test.txt": {
+      "count": 2700,
+      "seed42_order_equal": true,
+      "seed42_set_equal": true
+    }
+  },
+  "scenarios": {
+    "test0_normal.txt": 300,
+    "test1_crowd.txt": 300,
+    "test2_hlight.txt": 300,
+    "test3_shadow.txt": 300,
+    "test4_noline.txt": 300,
+    "test5_arrow.txt": 300,
+    "test6_curve.txt": 300,
+    "test7_cross.txt": 300,
+    "test8_night.txt": 300
+  },
+  "files": [
+    {
+      "path": "list/train_gt.txt",
+      "sha256": "f9201e7427c544efb980f6f515a8608e9de4af6835ed3767b9e4ca922b8a3ead"
+    },
+    {
+      "path": "list/val_gt.txt",
+      "sha256": "4dccd53f34eaf3547f83624478a4012356f83675f99a713d380fa222c552050a"
+    },
+    {
+      "path": "list/test.txt",
+      "sha256": "c8a01801d77ebcbf6cd4016728e746712073807249b6ecfd7172d3ce55c1bf20"
+    },
+    {
+      "path": "list/test_split/test0_normal.txt",
+      "sha256": "04864ba0ce0cbd8b13e6985cebc66252cb43bf731b2ee06b79362cc89dc3034f"
+    },
+    {
+      "path": "list/test_split/test1_crowd.txt",
+      "sha256": "5ad448d483b168cead60bb5ef5e734ef9890620bde75c684280dc4fceecca3b4"
+    },
+    {
+      "path": "list/test_split/test2_hlight.txt",
+      "sha256": "5c6bbbab7b542de62e2285380ed3d5fbd35c5701b6d33d1bdbc7bee0ded52d59"
+    },
+    {
+      "path": "list/test_split/test3_shadow.txt",
+      "sha256": "e7630d6b7a7978c6cd799bb2fa39091be50328d9ce498e185eb1e0eb94637b0a"
+    },
+    {
+      "path": "list/test_split/test4_noline.txt",
+      "sha256": "d996d03269c005dc3d4891e93fef70ff14406d09a030540fed4f01a3b0e53857"
+    },
+    {
+      "path": "list/test_split/test5_arrow.txt",
+      "sha256": "0fc06101528b6906ba6f1d58941bf247b763c7933908da015d6e6c10c83fc01a"
+    },
+    {
+      "path": "list/test_split/test6_curve.txt",
+      "sha256": "7786995224402519d4119cf2b816e00bd9ad3b52b61bed0d17b4b40b282723f7"
+    },
+    {
+      "path": "list/test_split/test7_cross.txt",
+      "sha256": "49f72b88c5fcb94e90d62fc83a8d0a8dc765f867a004154a87865bec75381fb6"
+    },
+    {
+      "path": "list/test_split/test8_night.txt",
+      "sha256": "c7893fdb3dfe4fe737d8691c03627522ea9bb4937b0d6fe1c2b54d6dbebc8b81"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "list/train_gt.txt",
+      "sha256": "b8512d9f1954a290d156cd522b6c11220e5bcd7bbd965016251167f426334908"
+    },
+    {
+      "path": "list/val_gt.txt",
+      "sha256": "7d03397c393958243bc1a0487540376106704d6c1c5d63e8d25ae88094160002"
+    },
+    {
+      "path": "list/test.txt",
+      "sha256": "31180e019fe40cc5e8785e9c456b5b5ac242fe4e35a9d0d38d6d5e06e31b3ea9"
+    },
+    {
+      "path": "list/test_split/test0_normal.txt",
+      "sha256": "e161e93ebc05a9fc3fb78e3f4eaf388d3ed6cc5fb9fb927ded853b659e09343c"
+    },
+    {
+      "path": "list/test_split/test1_crowd.txt",
+      "sha256": "e0b1fe2d2cf3e23e41e0672f61aa3ade9eb01242a5250695030fa970e05d2b2b"
+    },
+    {
+      "path": "list/test_split/test2_hlight.txt",
+      "sha256": "8068fa4c598ae2fc20373c0d872dfa95191e3bea37d81dc7f1b3db0a925cc3d0"
+    },
+    {
+      "path": "list/test_split/test3_shadow.txt",
+      "sha256": "1921dccca5c5137fa88da6eabca7086ca318a7d0686ac3f117ae4ed2d8889698"
+    },
+    {
+      "path": "list/test_split/test4_noline.txt",
+      "sha256": "b84634df496f9ca45a4162f5fba79ff193874533d40412102e5b2d71ed556390"
+    },
+    {
+      "path": "list/test_split/test5_arrow.txt",
+      "sha256": "db0c75a22235659bb99dca10753a0c7b2eee1226e82f55d6236e3eb38cde00d4"
+    },
+    {
+      "path": "list/test_split/test6_curve.txt",
+      "sha256": "801b507e5201cb8c891cb150e902dbb046e496d84aa9bcc2a5aa5925d1e5843c"
+    },
+    {
+      "path": "list/test_split/test7_cross.txt",
+      "sha256": "6186b69466d6f8696df28dffcf20c07533d409ce1e33176010ad5d7be1f4fc04"
+    },
+    {
+      "path": "list/test_split/test8_night.txt",
+      "sha256": "dab0aec3c16ac6cf93ed1d51b39d3bb41137ab333251b89c75cf297b3035ed32"
+    }
+  ]
+}
